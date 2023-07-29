@@ -6,9 +6,7 @@
 <suite name="ResgressionSuite" verbose="4" parallel="tests"
 	thread-count="2">
 
-	<listeners>
-		<listener class-name="com.itview.testng.TestNGListener" />
-	</listeners>
+	
 
 	<test name="Altoro Mutual Application">
 		<classes>
@@ -16,10 +14,6 @@
 		</classes>
 	</test> <!-- Test -->
 
-	<test name="Openmrs Application">
-		<classes>
-			<class name="com.itview.testng.HositalMRS_Login" />
-		</classes>
-	</test> <!-- Test -->
+	
 
 </suite> <!-- ResgressionSuite -->

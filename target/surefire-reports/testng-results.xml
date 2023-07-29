@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-29T11:40:12 IST" name="ResgressionSuite" finished-at="2023-07-29T11:41:19 IST" duration-ms="67186">
+    <groups>
+      <group name="LoginModule">
+        <method signature="Altoromutual_Login.adminLogin()[pri:0, instance:com.itview.testng.Altoromutual_Login@7e7be63f]" name="adminLogin" class="com.itview.testng.Altoromutual_Login"/>
+        <method signature="Altoromutual_Login.jSmithLogin()[pri:1, instance:com.itview.testng.Altoromutual_Login@7e7be63f]" name="jSmithLogin" class="com.itview.testng.Altoromutual_Login"/>
+        <method signature="Altoromutual_Login.testUserLogin()[pri:2, instance:com.itview.testng.Altoromutual_Login@7e7be63f]" name="testUserLogin" class="com.itview.testng.Altoromutual_Login"/>
+      </group> <!-- LoginModule -->
+    </groups>
+    <test started-at="2023-07-29T11:40:12 IST" name="Altoro Mutual Application" finished-at="2023-07-29T11:41:19 IST" duration-ms="67186">
+      <class name="com.itview.testng.Altoromutual_Login">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.itview.testng.Altoromutual_Login@7e7be63f]" started-at="2023-07-29T11:40:12 IST" name="preCondition" finished-at="2023-07-29T11:40:41 IST" duration-ms="28494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="adminLogin()[pri:0, instance:com.itview.testng.Altoromutual_Login@7e7be63f]" started-at="2023-07-29T11:40:41 IST" name="adminLogin" description="Test Case to verify Admin login functionality" finished-at="2023-07-29T11:40:51 IST" duration-ms="9838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin -->
+        <test-method signature="jSmithLogin()[pri:1, instance:com.itview.testng.Altoromutual_Login@7e7be63f]" started-at="2023-07-29T11:40:51 IST" name="jSmithLogin" description="Test Case to verify JSmith login functionality" finished-at="2023-07-29T11:40:58 IST" depends-on-methods="com.itview.testng.Altoromutual_Login.adminLogin" duration-ms="7700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jSmithLogin -->
+        <test-method signature="testUserLogin()[pri:2, instance:com.itview.testng.Altoromutual_Login@7e7be63f]" started-at="2023-07-29T11:40:58 IST" name="testUserLogin" description="Test Case to verify TestUser login functionality" finished-at="2023-07-29T11:41:06 IST" depends-on-methods="com.itview.testng.Altoromutual_Login.adminLogin" duration-ms="7780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.itview.testng.Altoromutual_Login@7e7be63f]" started-at="2023-07-29T11:41:06 IST" name="postCondition" finished-at="2023-07-29T11:41:19 IST" duration-ms="13235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.itview.testng.Altoromutual_Login -->
+    </test> <!-- Altoro Mutual Application -->
+  </suite> <!-- ResgressionSuite -->
+</testng-results>
